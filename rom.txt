@@ -1,0 +1,38 @@
+// ECE 2544 Learning Experience C
+//
+// This text file contains the memory contents of the ROM in hex.
+// The ROM is 8 bits wide, which is 2 hex digits per address.
+// For example, "1E" indicates that a memory location contains the 
+// 8 bits 00011110
+// 
+//  The ROM has 8 addresses.  
+//  Do not list more than 8 values in this file.
+//  You should modify the contents of this file to use operands for 
+//  testing your functional blocks.  
+//  For submission and validation, you will be required to insert
+//  specific data values into this file.
+// 
+//  "@<number>" specifies the memory location of the next line of data 
+//  and then the subsequent lines are in consecutive locations.
+//
+//ROM contents for validation
+//VT ID (1485 = 0001 0100 1000 0101)
+//addr  hex  binary    contents
+// 0    14   00010100  BCD of ID digits 1 and 4 (0001 0100)
+// 1    85   10000101  BCD of ID digits 8 and 5 (1000 0101)
+// 2    7D   01111101  validation value, Table 3.1
+// 3    E6   11100110  validation value, Table 3.1
+// 4    DF   11011111  validation value, Table 3.1
+// 5    10   00010000  validation value, Table 3.1
+// 6    77   01110111  validation value, Table 3.1
+// 7    FA   11111010  validation value, Table 3.1
+//
+@0
+14
+85
+7D
+E6
+DF
+10
+77
+FA
